@@ -6,3 +6,5 @@ docker run --name python_project -e POSTGRES_PASSWORD=python_project -p 5432:543
 Kinh nghiêmj: Ubuntu ngăn cài các thư viện python => tạo môi trường ubuntu ảo
 source venv/bin/activate
 trong vs code, chọn Ctr
+Ctrl + Shift + P
+Python: Select Interpreter => chọn venv
