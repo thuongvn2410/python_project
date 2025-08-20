@@ -1,0 +1,8 @@
+pip install psycopg2-binary => lib kết nối đến postgresl
+pip install python-dotenv => lib 
+
+docker run --name python_project -e POSTGRES_PASSWORD=python_project -p 5432:5432 -v pgdata:/home/thuongvn/postgresql/data -d postgres
+
+Kinh nghiêmj: Ubuntu ngăn cài các thư viện python => tạo môi trường ubuntu ảo
+source venv/bin/activate
+trong vs code, chọn Ctr
